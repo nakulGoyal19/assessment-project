@@ -1,0 +1,38 @@
+.div_nav{
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-size:45px;
+    
+}
+#nav{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size:50px;
+  }
+  #nav_p{
+      font-size:30px;
+      font-family:serif;
+  }
+
+.img{
+    width:350px;
+    height:350px;
+    margin-top:60px;
+}
+.button{
+       background-color:#4CAF50;
+       border:none;
+       color:white;
+       text-align:center;
+       font-size: 16px;
+       margin: 4px 2px;
+       padding: 10px 32px;
+
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    background-color:grey;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Github User Finder</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+       <div class="div_nav">
+           <h1>Github User Finder</h1>
+           <p>*Username should be valid</p>
+       </div>
+       <a href="../index.html" class="button">BACK</a>
+       <form id="form">
+           <div class="form-group">
+               <label for="search">Enter a git - username</label>
+               <input class="form-control" id="search" type="text">
+           </div>
+           <button class="btn btn-primary" type="submit">Search</button>
+       </form>
+       <!-- div section to hold user info-->
+       <center>
+            <div id="events">
+            </div>
+            <div id="emojis">
+            </div>
+            <div id="user">
+            </div>
+            <div id="repos">
+            </div>
+        </center>
+        
+       
+       
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</html>

@@ -1,0 +1,50 @@
+.div_nav{
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+.div_nav p{
+    font-size:20px;
+}
+.form-group{
+    margin:100px;
+}
+.btn{
+    margin-left:100px;
+    margin-top:-120px;
+}
+#dynamic{
+    width:300px;
+    height:300px;
+    cursor:pointer;
+    transition:0.3s;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left:80px;
+}
+
+#dynamic:hover{
+
+    opacity:0.7;
+
+}
+#error{
+    width:300px;
+    height:300px;
+    margin-left:480px;
+}
+.button{
+    background-color:#4CAF50;
+    border:none;
+    color:white;
+    text-align:center;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 10px 32px;
+
+}
+a:hover{
+ text-decoration: none;
+}
