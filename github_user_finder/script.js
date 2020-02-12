@@ -5,7 +5,10 @@ $(document).ready(function(){
     // binding a event listener on the form
 
     $("#form").submit(function(){
-
+        $("#user").empty();
+        $("#repos").empty();
+        $("#emojis").empty();
+        $("#events").empty();
         // collection value submitted by user
 
         query = $("#search").val();
@@ -130,6 +133,8 @@ $(document).ready(function(){
          
         $("#user").empty();
         $("#repos").empty();
+        $("#emojis").empty();
+        $("#events").empty();
 
 
     });
